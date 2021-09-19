@@ -12,7 +12,7 @@ EsketitOS is open source.
 
 EsketitOS is multi-user. It allows mutiple accounts.
 
-EsketitOS is networked, over HTTP your and your users wallet are accessible world wide.
+EsketitOS is networked, over HTTP users wallets are potentially accessible world wide.
 
 EsketitOS has a token store, similar to an app store or play store, developers can add their own applications and extend the functionaility of EsketitOS.
 
