@@ -16,4 +16,4 @@ EsketitOS has a token store, similar to an app store or play store, developers c
 
 For developers, EsketitOS aims to be easy to develop for, its is written in web scripting languages, runs on a web server and communicates with core over remote procedure calls (RPC). Here are some screenshots.
 
-![Screenshot1](/ss/1.png?raw=true "Login")
+![Screenshot1](/ss/ss1.png?raw=true "Login")
