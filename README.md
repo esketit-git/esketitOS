@@ -19,3 +19,5 @@ For developers, EsketitOS aims to be easy to develop for, its is written in web 
 <img src="/ss/ss1.png" width=49% height=49% alt="Login"> <img src="/ss/ss2.png" width=49% height=49% alt="Signup">
 <img src="/ss/ss3.png" width=49% height=49% alt="Bitcoin Wallet"> <img src="/ss/ss4.png" width=49% height=49% alt="Token Store">
 <img src="/ss/ss5.png" width=49% height=49% alt="Send"> <img src="/ss/ss6.png" width=49% height=49% alt="News">
+
+Copyright &copy; 2021 esketit.org
