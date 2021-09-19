@@ -16,6 +16,8 @@ EsketitOS is networked, over HTTP your and your users wallet are accessible worl
 
 EsketitOS has a token store, similar to an app store or play store, developers can add their own applications and extend the functionaility of EsketitOS.
 
+Esketit is not a cryptocurrency or a token.
+
 For developers, EsketitOS aims to be easy to develop for, its is written in web scripting languages, runs on a web server and communicates with core over remote procedure calls (RPC). Here are some screenshots.
 
 <img src="/ss/ss1.png" width=49% height=49% alt="Login" title="login world wide"> <img src="/ss/ss2.png" width=49% height=49% alt="Signup" title="sign up new user">
