@@ -16,5 +16,6 @@ EsketitOS has a token store, similar to an app store or play store, developers c
 
 For developers, EsketitOS aims to be easy to develop for, its is written in web scripting languages, runs on a web server and communicates with core over remote procedure calls (RPC). Here are some screenshots.
 
-<img src="/ss/ss1.png" width=50% height=50% alt="Login"><img src="/ss/ss2.png" width=50% height=50% alt="Signup">
-
+<img src="/ss/ss1.png" width=50% height=50% alt="Login"> <img src="/ss/ss2.png" width=50% height=50% alt="Signup">
+<img src="/ss/ss3.png" width=50% height=50% alt="Bitcoin Wallet"> <img src="/ss/ss4.png" width=50% height=50% alt="Token Store">
+<img src="/ss/ss5.png" width=50% height=50% alt="Send"> <img src="/ss/ss6.png" width=50% height=50% alt="News">
