@@ -1,6 +1,6 @@
 # EsketitOS
 
-  - one wallet, many coins
+  - one wallet, many coins... a cryptocurrency operating system. 
 
 EsketitOS, an operating system for cryptocurrency, multi-coin wallet, http networking, token store and more...
 
