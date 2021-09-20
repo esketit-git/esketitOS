@@ -2,7 +2,7 @@
 
   - one wallet, many coins... a cryptocurrency operating system. 
 
-EsketitOS, an operating system for cryptocurrency, multi-coin wallet, http networking, token store and more...
+EsketitOS, an operating system for cryptocurrency, multi-coin wallet, HTTP networking, token store and more...
 
 Esketit is pronounced, sshkedit or air-sskedit, you are not allowed to think about it, sshkedit. It is a play on the word "just get it" in reference 
 to needing to buy something.
