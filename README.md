@@ -4,7 +4,7 @@
 
 this release is not yet functional, it has no rpc node support programmed. Support for Bitcoin and Cardano is being programmed.
 
-EsketitOS uses its own custom HTTP server and its own QT Window Container that loads the local files or web files.
+EsketitOS uses its own custom HTTP server and its own QT Window Container that loads the local files or web files. The HTTP server allows worldwide access from any device while the QT window container provides a specialized experience. You can also opt for your own stack and standard browser access.  
 
   -sys directory goes outside of (htdocs) web root, it holds the databases and the RPC configuration.
   -load terminals index.php as the main program, all links should work after that. (QT Window Container is hardcoded to search for this file on startup)
