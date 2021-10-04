@@ -11,12 +11,15 @@ EsketitOS uses its own custom HTTP server and its own QT Window Container that l
   -all other programs go into web root alongside terminals not in it and are hyperlinked and accessed from the terminals/index.php
 
 The QT web container
+
 https://github.com/esketit-git/Qt-Middleware-Container
 
-The customer HTTP Server
+The custom HTTP Server built especially to house EsketitOS
+
 https://github.com/esketit-git/meHs
 
 Optionally at some stage aSSL is also utilized to provide some encryption benefit. With an enterprise stack, SSL certs would be used.
+
 https://github.com/esketit-git/aSSL
 
 EsketitOS, an operating system for cryptocurrency, multi-coin wallet, HTTP networking, token store and more...
