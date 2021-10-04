@@ -1,0 +1,16 @@
+<?php
+
+$path = dirname(__FILE__, 2);
+$autoload = $path."/programs/terminals/php/bitcoin/autoload.php";
+$jsonRPC = $path."/programs/terminals/php/jsonRPCClient.php";
+
+include_once ($autoload);
+include_once ($jsonRPC);
+
+$bitcoin = new jsonRPCClient('http://Z3biyyml9DwzCThHJ6CN5mmTfiE9GJ6C63XeHPMflSyKyD6QrF5W23YF2Gvg7kLf0tD9UaeUabGPoz9C2p3h33hClomSSLS89hz0SJowm1oLWcNHtZYVTT0v03vviaCg:oi17BfAUSz7TlSUCqrxNWKCk2YXR4sA37kc9rUwRXD3TZwFjIZI3MBF3MbIXkjIuTyLIGa0UcKrI7c8wLt0aJXT7qjU4SyHLRnWBRcOTGTkIeTOmmF9CrLxM3bd1vr1D@127.0.0.1:8332/'); 
+$bitcoin_instance = new bitcoin\bitcoin('http://127.0.0.1:8332', 'Z3biyyml9DwzCThHJ6CN5mmTfiE9GJ6C63XeHPMflSyKyD6QrF5W23YF2Gvg7kLf0tD9UaeUabGPoz9C2p3h33hClomSSLS89hz0SJowm1oLWcNHtZYVTT0v03vviaCg', 'oi17BfAUSz7TlSUCqrxNWKCk2YXR4sA37kc9rUwRXD3TZwFjIZI3MBF3MbIXkjIuTyLIGa0UcKrI7c8wLt0aJXT7qjU4SyHLRnWBRcOTGTkIeTOmmF9CrLxM3bd1vr1D');
+
+$iv="c75601e55c36acb490eb0757c31b8320";
+$key="FbipX1St9V8nYFa2MP40H1NeIktmrFqrmNfn2p0T0hWawVTxJnvBGKMBsnjF8FU7HGVUAa3F5aGV9Bn6FZF2xOyvmxkJshimRJZ1cij1r8ldWlzoxOpFV7v4AWnQpHq6tzxq70LoTB59ZeAwldYB8GyolZ2mcEDNkPTvu2XaEfsW4isoXfGpD8ripd6DUPkOnZBWEHesndAocXz1RVRUfdXMIVx2LutZxykf6J8Ek8qy9SyeEC5Y1FRoM3iOgcFNuqcDaLXkII8liBC6le7U82I7aIp9ApWlFgjfhpKvW8SDDYvHOFmoNeeQAKm6Es102cWZ4JT6slmWhPRzXAVj7rPSebgjE0JJIaMaTWNvdNAdT3DpcamvVFjHNml4kvGe9OpbCEn8GEOyXkSOrW4NDxY61B1Ji8Rgor9Qw9x4hQctvdAosD0Ikj2DEZL0FyQ6QTyhBf9U4y3kUFLAFwg8n4wz2colF6mzIcPbp7t9m0rfMVBy8BtRzqMW1WTIGFL9";
+
+?>
