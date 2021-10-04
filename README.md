@@ -2,7 +2,7 @@
 
   - many coins, one interface... a cryptocurrency operating system. 
 
-this release is not yet functional, it has no rpc node support programmed. Support for Bitcoin is being programmed. 
+this release is not yet functional, it has no rpc node support programmed. Support for Bitcoin and Cardano is being programmed.
 
 EsketitOS uses its own custom HTTP server and its own QT Window Container that loads the local files or web files.
 
