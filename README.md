@@ -2,6 +2,8 @@
 
   - many coins, one interface... a cryptocurrency operating system. 
 
+this release is not yet functional, it has no rpc node support programmed.
+
 EsketitOS, an operating system for cryptocurrency, multi-coin wallet, HTTP networking, token store and more...
 
 Esketit is pronounced, sshkedit or air-sskedit, you are not allowed to think about it, sshkedit. It is a play on the word "just get it" in reference 
