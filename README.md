@@ -9,6 +9,7 @@ EsketitOS uses its own custom HTTP server and its own QT Window Container that l
   -sys directory goes outside of (htdocs) web root, it holds the databases and the RPC configuration.
   -load terminals index.php as the main program, all links should work after that. (QT Window Container is hardcoded to search for this file on startup)
   -all other programs go into web root alongside terminals not in it and are hyperlinked and accessed from the terminals/index.php
+  Every folder outside a terminals is an example of an app in EsektitOS and can be worked on independently as its own project.
 
 The QT web container
 
