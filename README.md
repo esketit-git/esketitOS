@@ -4,6 +4,21 @@
 
 this release is not yet functional, it has no rpc node support programmed.
 
+EsketitOS uses its own custom HTTP server and its own QT Window Container that loads the local files or web files.
+
+  -sys directory goes outside of (htdocs) web root, it holds the databases and the RPC configuration.
+  -load terminals index.php as the main program, all links should work after that. (QT Window Container is hardcoded to search for this file on startup)
+  -all other programs go into web root alongside terminals not in it and are hyperlinked and accessed from the terminals/index.php
+
+The QT web container
+https://github.com/esketit-git/Qt-Middleware-Container
+
+The customer HTTP Server
+https://github.com/esketit-git/meHs
+
+Optionally at some stage aSSL is also utilized to provide some encryption benefit. With an enterprise stack, SSL certs would be used.
+https://github.com/esketit-git/aSSL
+
 EsketitOS, an operating system for cryptocurrency, multi-coin wallet, HTTP networking, token store and more...
 
 Esketit is pronounced, sshkedit or air-sskedit, you are not allowed to think about it, sshkedit. It is a play on the word "just get it" in reference 
