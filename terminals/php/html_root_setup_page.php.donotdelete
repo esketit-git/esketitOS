@@ -1,0 +1,104 @@
+<?php
+
+//set headers to NOT cache a page
+header("Cache-Control: no-cache, must-revalidate"); //HTTP 1.1
+header("Pragma: no-cache"); //HTTP 1.0
+header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
+//or, if you DO want a file to cache, use:
+//header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30days)
+//if ($_SERVER['REQUEST_METHOD'] !== 'POST') die();
+//unset( $_GET );
+
+//security checks on page load, should we display the page?
+if ($root_user = FALSE) { header('Location: index.php'); die(); }
+if(strlen($id) < 100) die(); //do an id check for each page (not implemented)
+//or send a hash of username and password with every request) if does not match that one on the db logout
+
+?>
+
+<!-- the use of javascript can only be superficial, increased sever side checks required -->
+<script>
+
+		var base = window.location.toString().split("?")[0].replace(/[^\/]+$/,"")
+
+			$(document).ready(function() {
+			
+				$('#root_form').on('submit',function(e) {
+				  e.preventDefault();
+				  
+				  /*Check for validation return false*/
+				  
+				//let x = document.forms["root_form"]["u"].value;
+				//		if (x == "") {	    
+				//	    alert("Name must be filled out");
+				//	    return false;
+				//    }
+
+
+       /*Submit form*/
+       
+					var fn = $("#fn").val();
+					var un = $("#un").val();
+          var pw = $("#pw").val();
+          var em = $("#em").val();
+          var root = $("#root").val();
+          var id = $("#id").val();
+          var gen_wallet = $("#gen_wallet").is(":checked");
+
+       var pwhash = sha3_512(pw);
+       var unhash = sha3_512(un);
+
+						var url = base + 'php/setup.php';
+
+						    $.ajax({url:url,type:"POST",cache:false,data:{
+										fn:fn,
+                    un:unhash,
+                    pw:pwhash,
+                    root:root,
+                    em:em,
+                    gen_wallet:gen_wallet,
+                    id:id
+                }, success: function(result) {
+                
+                						if (result.includes("NNHbHozQikWmU4YheAWW")) {
+                    									alert ("Account is created. Click OK to login")
+                    									location.reload();
+                            } else {
+                            					alert ("Error: " + result + ". Account was not created.")
+                            }
+                            
+               } //function-result
+					}); //ajax-post
+				}); //root-setup-button
+			}); //document.ready
+
+</script>
+
+
+	<div id="second">
+						<div class="tooltip"><img src="images/info.png" title='Username, Email Address and Password
+						
+Enter a username, a valid email address and a password. The username and password is used to log into the system while a valid email address is used to retrieve forgotton credentials.
+
+Write it all down on a notepad along with any wallet passphrases and store in a safe place.
+
+Terminal OS runs entirely on your computer, terminal OS is a multi user and a network operating system. When ready click SIGN UP to proceed.'>
+					</div>
+
+		<p class="neg5"><img src="images/signup.png" width="48"></p>
+
+      <p><b>No root user exists, add the root user</b></p>
+ 
+		<form id="root_form">
+    	<input id="id" type="hidden" value="<?php echo $id; ?>" />
+    	<input id="root" type="hidden" value="1" />
+    	<input id="fn" type="text" placeholder="Enter full name &#128100;" maxlength="128" minlength="3" required />
+			<input id="un" type="text" placeholder="Enter a username &#128101;" maxlength="128" minlength="3" required />
+			<input id="em" type="email" placeholder="Enter a valid email address &#64;" maxlength="128" minlength="5" required />
+			<input id="pw" type="password" placeholder="Password ****" maxlength="128" minlength="8" required />
+    	<p><input style="all: revert" type="checkbox" id="gen_wallet" value="1" checked="checked">
+            <label  style="all: revert" for="root_user"> Make the main wallet?</label></p>
+       <input type="submit" id="root-setup-button" value="SIGN UP &#9997;">
+		</form>
+ </div>
+
