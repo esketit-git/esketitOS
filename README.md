@@ -7,7 +7,9 @@ this release is not yet functional, it has no rpc node support programmed. Suppo
 EsketitOS uses its own custom HTTP server and its own QT Window Container that loads the local files or web files. The HTTP server allows worldwide access from any device while the QT window container provides a specialized experience. You can also opt for your own stack and standard browser access. EsketitOS is designed for personal use and to be securely networked globally as an enterprise solution over HTTPS.
 
   -sys directory goes outside of (htdocs) web root, it holds the databases and the RPC configuration.
+  
   -load terminals index.php as the main program, all links should work after that. (QT Window Container is hardcoded to search for this file on startup)
+  
   -all other programs go into web root alongside terminals not in it and are hyperlinked and accessed from the terminals/index.php
   Every folder outside a terminals is an example of an app in EsektitOS and can be worked on independently as its own project.
 
