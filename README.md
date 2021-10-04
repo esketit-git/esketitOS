@@ -29,8 +29,8 @@ https://github.com/briababby/bitcoin_rpc_wrapper
 
 EsketitOS, an operating system for cryptocurrency, multi-coin wallet, HTTP networking, token store and more...
 
-Esketit is pronounced, sshkedit or air-sskedit, you are not allowed to think about it, sshkedit. It is a play on the word "just get it" in reference 
-to needing to buy something.
+Esketit is pronounced, skedet or sshkedit, don't think about it, sshkedit. It is a play on the word "just get it" in reference 
+to buying something.
 
 EsketitOS aims to be an operating system for cryptocurrencies. It is currently in development, pre-release. Version 0.9 to be compatible with Bitcoin and 
 Ethereum in a subsequent version. You cannot use it yet, we are still programming it.
