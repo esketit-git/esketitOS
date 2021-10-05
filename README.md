@@ -45,7 +45,7 @@ EsketitOS is networked, over HTTP users wallets are potentially accessible world
 
 EsketitOS has a token store, similar to an app store or play store, developers can add their own applications and extend the functionaility of EsketitOS.
 
-Esketit is not a cryptocurrency or a token. This is not a blockchain, its a non-specific front-end only. If we were to make a blockchain we would use the chia blockchain which is python web scripted blockchain, https://github.com/Chia-Network/chia-blockchain
+Esketit is not a cryptocurrency or a token. This is not a blockchain, its a non-specific front-end only. If we were to make a blockchain we would utilize the chia blockchain which is programmed in python, a web scripting based blockchain, https://github.com/Chia-Network/chia-blockchain
 
 For developers, EsketitOS aims to be easy to develop for, its is written in web scripting languages, runs on a web server and communicates with core over remote procedure calls (RPC). Here are some screenshots.
 
@@ -53,7 +53,7 @@ For developers, EsketitOS aims to be easy to develop for, its is written in web 
 <img src="/ss/ss3.png" width=49% height=49% alt="Bitcoin Wallet" title="clone of bitcoin wallet"> <img src="/ss/ss4.png" width=49% height=49% alt="Token Store" title="develop your own apps and add them to esketitOS">
 <img src="/ss/ss5.png" width=49% height=49% alt="Send" title="send coin"> <img src="/ss/ss6.png" width=49% height=49% alt="News" title="a news app">
 
-<img src="/ss/ss.png" width=49% height=49% alt="in its own window" title="in its own window">
+<center><img src="/ss/ss.png" width=49% height=49% alt="in its own window" title="in its own window"></center>
 
 https://esketit.org/
 
