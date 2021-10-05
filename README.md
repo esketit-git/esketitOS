@@ -25,7 +25,7 @@ Optionally at some stage aSSL is also utilized to provide some encryption benefi
 
 https://github.com/esketit-git/aSSL
 
-Also utilizes Bitcoin RPC Wrapper which goes into the terminals/php folder but we are preferring to work on Sergio Vaccaro <sergio@inservibile.org> jsonRPCClient.php as it is a case of better error handling and direct commands, less overhead as we proceed rather than OOP.
+Also utilizes Bitcoin RPC Wrapper which goes into the terminals/php folder but we are preferring to work on Sergio Vaccaro jsonRPCClient.php as it is a case of better error handling and direct commands, less overhead as we proceed rather than OOP.
 
 https://github.com/briababby/bitcoin_rpc_wrapper
 
