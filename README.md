@@ -52,7 +52,7 @@ For developers, EsketitOS aims to be easy to develop for, its is written in web 
 <img src="/ss/ss1.png" width=49% height=49% alt="Login" title="login world wide"> <img src="/ss/ss2.png" width=49% height=49% alt="Signup" title="sign up new user">
 <img src="/ss/ss3.png" width=49% height=49% alt="Bitcoin Wallet" title="clone of bitcoin wallet"> <img src="/ss/ss4.png" width=49% height=49% alt="Token Store" title="develop your own apps and add them to esketitOS">
 <img src="/ss/ss5.png" width=49% height=49% alt="Send" title="send coin"> <img src="/ss/ss6.png" width=49% height=49% alt="News" title="a news app">
-<img src="/ss/ss7.png" width=49% height=49% alt="In its own windpw" title="in its own window">
+<img src="/ss/ss7.png" width=49% height=49% alt="in its own window" title="in its own window">
 
 https://esketit.org/
 
