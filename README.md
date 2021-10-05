@@ -1,4 +1,6 @@
-# EsketitOS - many coins, one interface... a cryptocurrency operating system. 
+# EsketitOS - many coins, one interface... 
+
+- a cryptocurrency operating system. 
 
 this release is not yet functional, it has no rpc node support programmed. Support for Bitcoin and Cardano and Shiba Inu is being programmed.
 
