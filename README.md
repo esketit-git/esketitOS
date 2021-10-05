@@ -11,7 +11,7 @@ EsketitOS uses its own custom HTTP server and its own QT Window Container that l
   -terminals directory, index.php is the main program, all links run off index.php. (QT Window Container, executes the HTTP server and is hardcoded to search for /terminals/index.php file on startup). The various nodes are not embedded, instead are monitored by EsketitOS, they can be started, stopped, monitored (and email sent to admin), commanded and controlled and so on.
   
   -all other programs go into web root alongside terminals not in it and are hyperlinked and accessed from the terminals/index.php
-  Every folder outside a terminals is an example of an app in EsektitOS and can be worked on independently as its own project. An app in EsketitOS is a webscript in its own folder with its own icon. That's it, too easy.
+  Every folder outside of terminals is scanned as an app in EsektitOS and appears in the right pane. These folders can be worked on independently as their own project. An app in EsketitOS is a webscript in its own folder with its own icon. This plugin architecture allows the applications identity to evolve and change relative to its application.
 
 The QT web container
 
