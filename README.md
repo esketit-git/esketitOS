@@ -17,7 +17,7 @@ The QT web container
 
 https://github.com/esketit-git/Qt-Middleware-Container
 
-The custom HTTP Server built especially to house EsketitOS
+The custom HTTP Server built especially for EsketitOS
 
 https://github.com/esketit-git/meHs
 
