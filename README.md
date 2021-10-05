@@ -2,14 +2,14 @@
 
 - a cryptocurrency operating system. 
 
-this release is not yet functional, it has no rpc node support programmed. Support for Bitcoin and Cardano and Shiba Inu is being programmed.
+this release is not yet functional, it has no rpc node support programmed. Support for Bitcoin and Cardano and Shiba Inu is being programmed. 
 
 EsketitOS uses its own custom HTTP server and its own QT Window Container that loads the local files or web files. The HTTP server allows worldwide access from any device while the QT window container provides a specialized experience. You can also opt for your own stack and standard browser access. EsketitOS is designed for personal use and to be securely networked globally as an enterprise solution over HTTPS.
 
   -sys directory goes outside of (htdocs) web root, it holds the databases and the RPC configuration.
   
-  -terminals directory, index.php is the main program, all links run off index.php. (QT Window Container, executes the HTTP server and is hardcoded to search for /terminals/index.php file on startup). The various nodes are not embedded, instead are monitored by EsketitOS, they can be started, stopped, monitored (and email sent to admin), commanded and controlled and so on.
-  
+  -terminals directory, index.php is the main program, all links run off index.php. (QT Window Container, executes the HTTP server and is hardcoded to search for /terminals/index.php file on startup). The various nodes are not embedded, instead are monitored by EsketitOS, they can be started, stopped, monitored (and email sent to admin), commanded and controlled and so on. The terminals directory is main directory, the other folders are their own projects. 
+
   -all other programs go into web root alongside terminals not in it and are hyperlinked and accessed from the terminals/index.php
   Every folder outside of terminals is scanned as an app in EsektitOS and appears in the right pane. These folders can be worked on independently as their own project. An app in EsketitOS is a webscript in its own folder with its own icon. This plugin architecture allows the applications identity to evolve and change relative to its application.
 
