@@ -55,6 +55,4 @@ For developers, EsketitOS aims to be easy to develop for, its is written in web 
 
 <center><img src="/ss/ss.png" width=49% height=49% alt="in its own window" title="in its own window"></center>
 
-https://esketit.org/
-
-Copyright &copy; 2021 esketit.org
+Copyright &copy; 2021 esketit
